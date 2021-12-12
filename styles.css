@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px 50px 20px 50px;
+  font-size: 2.5rem;
+  margin: auto auto 0 auto;
+}
+
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+p {
+  font-family: Lexend Deca, sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.container {
+  background-color: #1B1938;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 150px auto;
+  width: 95%;
+}
+
+.image-container {
+  position: relative;
+  background-color: hsl(277, 91%, 50%);
+}
+
+.main-text {
+  padding: 0 50px 50px 50px;
+  line-height: 2;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat-row {
+  margin-bottom: 40px;
+}
+
+.stats {
+  margin-bottom: 80px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
