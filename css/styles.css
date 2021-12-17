@@ -1,5 +1,6 @@
 body {
   background-color: hsl(233, 47%, 7%);
+  box-sizing: border-box;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   color: white;
@@ -35,8 +36,7 @@ span {
 }
 
 .desktop-img {
-  display: block;
-  width: 100%;
+  object-fit: cover;
   opacity: 0.6;
 }
 
@@ -58,20 +58,20 @@ span {
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .desktop-img {
     display: none;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .mobile-img {
     display: none;
   }
 
   .container {
     display: flex;
-    margin:  200px auto;
+    margin: 20% auto;
     width: 80%;
   }
 
@@ -79,7 +79,6 @@ span {
     display: flex;
     order: 2;
     width: 50%;
-    height: auto;
   }
 
 
